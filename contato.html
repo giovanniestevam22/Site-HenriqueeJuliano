@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site sobre Henrique e Juliano</title>
+    <link rel="stylesheet" href="css/estilo.css">
+    <link rel="shortcut icon" href="Imagens/Img1.png" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+    
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <a href="index.html"><img src="Imagens/Img1.png" alt="" class="logo-img"></a>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Sobre</a></li>
+                    <li><a href="index.html#acao">Albuns principais</a></li>
+                    <li><a href="index.html#tra">Trajetória</a></li>
+                    <li><a href="index.html#alb">Albuns</a></li>
+                    <li><a href="index.html#gal">Galeria</a></li>
+                    <li><a href="contato.html">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="banner2">
+        <p><h1>Entre em Contato Conosco!</h1></p>
+        <p><h2>Para Técnicas de Produção musical caseira</h2></p>
+    </section>
+
+    <main>
+        
+        
+            <h1>Formulário para Contato</h1>
+            <form class="formulario-contato" action="https://formsubmit.co/estevam2204@gmail.com" method="post">
+                <div class="grupo-form">
+                <label for="nome">Seu Nome</label>
+                <input type="text" id="nome" name="nome" required>
+                </div>
+                
+                <div class="grupo-form">
+                    <label for="email">Seu E-Mail</label>
+                    <input type="email" id="email" name="email" required>
+                
+                </div>
+                
+                <div class="grupo-form">
+                    <label for="idade">Idade</label>
+                    <input type="number" id="idade" name="idade" min="10" max="120" required>
+                  </div>
+                 
+                  <div class="grupo-form">
+                    <label for="data">Data da consulta</label>
+                    <input type="date" id="data" name="data" required>
+                  </div>
+
+                  <div class="grupo-form">
+                    <label for="generro">Qual genêro musical você Mais Curte?</label>
+                    <input type="radio" name="generro" value="Sertanejo">Sertanejo
+                    <input type="radio" name="generro" value="Rock">Rock
+                    <input type="radio" name="generro" value="Pop">Pop
+                    <input type="radio" name="generro" value="Reggae">Reggae
+                    <input type="radio" name="generro" value="SambaPagode">Samba ou Pagode
+                    <input type="radio" name="generro" value="FunkRap">Funk ou Rap
+                  </div>
+
+                  <div class="grupo-form">
+                    <label for="inst">Qual instrumento você toca ou gostaria de tocar?</label>
+                    <select id="inst" name="inst">
+                      <option value="VG">Violão ou guitarra</option>
+                      <option value="BX">Baixo</option>
+                      <option value="TP">Teclado ou Piano</option>
+                      <option value="OT">Outro</option>
+                    </select>
+
+                    <div class="grupo-form">
+                        <label>Nivel de Produção</label>
+                        <input type="range" min="0" max="100" name="Producao">
+                      </div>
+                      
+                      <div class="grupo-form">
+                        <label for="cor">Escolha sua cor preferida de interface</label>
+                        <input type="color" id="cor" name="cor">
+                      </div>
+
+                      <div class="grupo-form">
+                        <label>Quais dessas bandas você já Escutou?</label>
+                        <input type="checkbox" name="uso[]" value="RHCP"> RHCP
+                        <input type="checkbox" name="uso[]" value="Nirvana"> Nirvana
+                        <input type="checkbox" name="uso[]" value="GNR"> Guns n' Roses
+                        <input type="checkbox" name="uso[]" value="CBJR"> Charlie Bronw Jr.
+                      </div>
+
+                      <div class="grupo-form">
+                        <label for="mensagem">Mensagem:</label>
+                        <textarea id="mensagem" name="mensagem" rows="5"></textarea>
+                      </div>
+                      
+                      <div class="grupo-form centraliza">
+                        <button type="submit" class="btn">Enviar</button>
+                        <input type="hidden" name="_captcha" value="true"> 
+                        <input type="hidden" name="_next" value="https://giovanniestevam22.github.io/Site_HenriqueeJuliano/enviadosucesso.html"> 
+            </form>
+            
+    </main>
+
+    <footer>
+        2025 - Criado por Giovanni Estevam - Todos os Direitos Reservados
+    </footer>
+    
+</body>
+</html>
+
